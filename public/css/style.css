@@ -1,0 +1,17 @@
+.tabel {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 15px;
+}
+.kotak {
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.bayangan {
+    text-shadow: 3px 2px 1px rgb(0, 0, 1);
+    font-size: 40px;
+}
+.textbox{
+    resize: none;
+    width:910px;
+    height:100%;
+  }

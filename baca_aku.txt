@@ -1,0 +1,14 @@
+Sebelum menjalankan projek :
+1. Import terlebih dahulu database di folder sql ke localhost
+2. Buka file .env dan isi database sesuai nama database dengan yang di localhost
+
+--Opsional: jika ditemukan eror seperti file tidak ditemukan pada saat awal run projek--
+1. composer install
+2. composer dump-autoload
+3. php artisan cache:clear
+4. php artisan config:clear
+5. php artisan optimize
+6. php artisan clear-compiled
+7. php artisan storage
+8. php artisan key:generate
+9. php artisan serve
