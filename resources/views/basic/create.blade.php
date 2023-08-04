@@ -7,7 +7,7 @@
 <!-- Main Content goes here -->
 <div class="card-body">
   <div class="text-center">
-    <img class="profile-img" src="{{asset('img/JMLinx.png')}}" width="20%">
+    <!-- <img class="profile-img" src="{{asset('img/JMLinx.png')}}" width="20%"> -->
   </div>
   <br>
   <div class="card">

@@ -62,6 +62,8 @@
             <h1 class="mb-6">Dashboard</h1>
             <p class="h2 text-end">Hello!
                 Welcome back {{ Auth::user()->name }}</p>
+                <p class="h5 text-end">PT. Jasa Marga (Persero) Tbk.</p>
+
         </div>
     </div>
     <div class="col-md-5 d-flex align-items-center pb-4">
@@ -75,7 +77,7 @@
             <div class="input-append">
                 <input type="text" class="input-large search-query" name="s" placeholder="Pencarian..." value="{{ Request()->s }}"
                     style="width: 65%">
-                <button type="submit" class="btn btn-sm btn-primary add-on"><i class="fas fa-search"></i></button>
+                <button type="submit" class="btn btn-sm btn-danger add-on"><i class="fas fa-search"></i></button>
             </div>
         </form>
     </div>
@@ -95,6 +97,8 @@
         <br><button type="submit" class="btn btn-primary">filter</button></br>
     </div>
 </form>
+<p class="h4 text-end">Daftar Website</p>
+<br>
 <div class="row row-cols-3 row-cols-md-4 g-6">
 @forelse ($applications as $application)
   <div class="col">

@@ -6,7 +6,7 @@
 
 <!-- Main Content goes here -->
 <div class="d-flex justify-content-center">
-    <img class="profile-img" src="{{asset('img/JMLinx.png')}}" width="20%">
+    <!-- <img class="profile-img" src="{{asset('img/JMLinx.png')}}" width="20%"> -->
 </div>
 <br>
 <div class="position-relative">

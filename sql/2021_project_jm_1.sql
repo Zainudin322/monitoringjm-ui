@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 06, 2022 at 09:21 AM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.4.24
+-- Waktu pembuatan: 24 Jul 2023 pada 07.43
+-- Versi server: 10.4.21-MariaDB
+-- Versi PHP: 8.0.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `applications`
+-- Struktur dari tabel `applications`
 --
 
 CREATE TABLE `applications` (
@@ -41,34 +41,23 @@ CREATE TABLE `applications` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `applications`
+-- Dumping data untuk tabel `applications`
 --
 
 INSERT INTO `applications` (`id`, `group_id`, `name`, `bpo`, `year`, `url`, `server`, `image`, `created_at`, `updated_at`) VALUES
-(5, 4, 'OP Manager Manage Engine', 'ITE', '2014', 'http://opmanager.jasamarga.co.id:8060', '-', '1644047419.png', '2021-12-12 20:33:20', '2022-02-05 00:50:19'),
-(6, 5, 'Manage Engine Servicedesk Plus', 'ITE', '2014', 'http://servicedesk.jasamarga.co.id:8080', '-', '1644047711.png', '2021-12-12 20:35:12', '2022-02-05 00:55:11'),
-(7, 4, 'Manage Engine Application Manager', 'ITE', '2014', 'http://appmanager.jasamarga.co.id:9090', '-', '1644047806.png', '2021-12-12 20:36:02', '2022-02-05 00:56:46'),
-(8, 1, 'Penetration Tester Aplication (Acunetix)', 'ITE', '2018', 'https://pentest.jasamarga.co.id:3443/', '-', '1643841016.png', '2021-12-12 23:09:28', '2021-12-18 03:21:31'),
-(9, 1, 'Vulnerability Management Aplication', 'ITE', '2018', 'https://vulman.jasamarga.co.id/', '-', '1643841460.png', '2021-12-12 23:10:12', '2021-12-18 03:22:34'),
-(10, 1, 'Firewall to external (Fortigate FG 2)', 'ITE', '2020', 'https://fg2.jasamarga.co.id:8443', '-', '1643841837.png', '2021-12-12 23:11:02', '2021-12-12 23:11:02'),
-(11, 2, 'ICON+ (MRTG Provider IT Jasa Marga)', 'ITE', '2014', 'https://mrtg.iconpln.co.id/login', '-', '1643851217.png', '2021-12-18 10:04:56', '2021-12-15 23:03:46'),
-(12, 2, 'CNI (MRTG Provider IT Jasa Marga)', 'ITE', '2020', 'https://cacti.wimax.net.id/', '-', '1643843479.png', '2021-12-18 10:04:40', '2021-12-15 20:01:51'),
-(13, 1, 'Firewall to external (Fortigate FG 1)\r\n', 'ITE', '2020', 'https://fg1.jasamarga.co.id:8443', '-', '1643843565.png', '2021-12-18 10:04:22', '2021-12-15 20:02:17'),
-(14, 8, 'F5 Link Controller 1', 'ITE', '2014', 'https://lc1.jasamarga.co.id/tmui/login.jsp', '-', '1643850815.png', '2021-12-18 10:01:47', '2021-12-18 03:20:19'),
-(15, 8, 'F5 Link Controller 2', 'ITE', '2014', 'https://lc2.jasamarga.co.id/tmui/login.jsp', '-', '1643850830.png', '2021-12-18 10:05:13', '2021-12-18 03:20:41'),
-(16, 11, 'F5 ASM Pusat', 'ITE', '2014', 'https://asmpusat.jasamarga.co.id/tmui/login.jsp', '-', '1643850845.png', '2021-12-18 10:05:13', '2021-12-18 03:22:08'),
-(17, 11, 'F5 LTM Pusat', 'ITE', '2014', 'https://ltm.jasamarga.co.id/tmui/login.jsp', '-', '1643850882.png', '2021-12-18 10:09:09', '2021-12-18 03:21:14'),
-(18, 11, 'F5 ASM Colo', 'ITE', '2014', 'https://asmcolo.jasamarga.co.id/tmui/login.jsp', '-', '1643850902.png', '2021-12-18 10:09:09', '2021-12-18 03:22:57'),
-(19, 10, 'Vcenter Pusat', 'ITE', '2018', 'https://10.1.4.16/', '-', '1643850655.png', '2021-12-18 10:13:45', '2021-12-18 03:23:48'),
-(20, 10, 'Vcenter Colo', 'ITE', '2018', 'https://10.14.4.62/', '-', '1643850674.png', '2021-12-18 10:13:45', '2021-12-18 03:24:26'),
-(21, 7, 'Exchange admin (Microsoft Exchange 2013)', 'ITE', '2014', 'https://webmail.jasamarga.co.id/ecp/', '-', '1643849045.png', '2021-12-18 10:16:35', '2021-12-18 03:24:43'),
-(22, 2, 'Telkom Astinet (MRTG Provider IT Jasa Marga)', 'ITE', '2009', 'https://telkomcare.telkom.co.id/mrtgnetcare2/graph', '-', '1644051040.png', '2022-02-05 01:50:40', '2022-02-05 01:50:40'),
-(23, 9, 'Riverbed Steelconnect', 'ITE', '2020', 'https://jasamarga.riverbed.cc/login', '-', '1643849295.png', '2022-02-05 01:52:20', '2022-02-05 01:52:20');
+(28, 13, 'Facebook', 'FB', '2020', 'https://id-id.facebook.com/', 'https://id-id.facebook.com/', '1653960263.png', '2022-05-30 18:17:21', '2022-05-30 18:24:23'),
+(29, 13, 'Instagram', 'IG', '2020', 'https://www.instagram.com/?hl=id', 'https://www.instagram.com/?hl=id', '1653960423.png', '2022-05-30 18:27:03', '2022-05-30 18:27:03'),
+(30, 13, 'Viewpoints', 'VW', '2020', 'https://viewpoints.fb.com/', 'https://viewpoints.fb.com/', '1653960605.png', '2022-05-30 18:30:05', '2022-05-30 18:30:05'),
+(31, 14, 'Twitter', 'TW', '2020', 'https://twitter.com/i/flow/login', 'https://twitter.com/i/flow/login', '1653961030.png', '2022-05-30 18:33:13', '2022-05-30 18:37:10'),
+(32, 15, 'Wikipedia', 'WI', '2020', 'https://id.wikipedia.org/wiki/Halaman_Utama', 'https://id.wikipedia.org/wiki/Halaman_Utama', '1653961254.jpg', '2022-05-30 18:40:54', '2022-05-30 18:40:54'),
+(33, 16, 'Gmail', 'GM', '2020', 'https://www.google.com/intl/id/gmail/about/', 'https://www.google.com/intl/id/gmail/about/', '1653961395.jpg', '2022-05-30 18:43:15', '2022-05-30 18:43:15'),
+(34, 16, 'Google', 'GG', '2020', 'https://www.google.com/?hl=id', 'https://www.google.com/?hl=id', '1653961495.png', '2022-05-30 18:44:55', '2022-05-30 18:44:55'),
+(35, 17, 'Youtube', 'YT', '2020', 'https://www.youtube.com/?hl=ID', 'https://www.youtube.com/?hl=ID', '1653961721.jpg', '2022-05-30 18:48:41', '2022-05-30 18:48:41');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `failed_jobs`
+-- Struktur dari tabel `failed_jobs`
 --
 
 CREATE TABLE `failed_jobs` (
@@ -83,7 +72,7 @@ CREATE TABLE `failed_jobs` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `groups`
+-- Struktur dari tabel `groups`
 --
 
 CREATE TABLE `groups` (
@@ -94,25 +83,20 @@ CREATE TABLE `groups` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `groups`
+-- Dumping data untuk tabel `groups`
 --
 
 INSERT INTO `groups` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'Security', '2021-12-06 05:23:56', '2021-12-15 19:56:33'),
-(2, 'MRTG', '2021-12-06 05:24:16', '2021-12-12 20:28:52'),
-(4, 'Aplications Monitoring', '2021-12-12 20:30:55', '2021-12-12 20:30:55'),
-(5, 'Aplications Ticketing', '2021-12-12 20:31:23', '2021-12-12 20:31:23'),
-(6, 'Etc.', '2021-12-18 03:00:18', '2021-12-18 03:00:18'),
-(7, 'E-Mail Enterprise', '2022-02-05 01:45:47', '2022-02-05 01:45:47'),
-(8, 'Load Balancer Network', '2022-02-05 01:46:11', '2022-02-05 01:46:11'),
-(9, 'SD-WAN', '2022-02-05 01:47:17', '2022-02-05 01:47:17'),
-(10, 'Virtualization', '2022-02-05 01:47:52', '2022-02-05 01:47:52'),
-(11, 'Web Application Filtering', '2022-02-05 01:48:27', '2022-02-05 01:48:27');
+(13, 'Meta', '2022-05-30 18:14:30', '2022-05-30 18:14:30'),
+(14, 'Twitter Inc.', '2022-05-30 18:31:39', '2022-05-30 18:31:39'),
+(15, 'Wikimedia Foundation', '2022-05-30 18:39:25', '2022-05-30 18:39:25'),
+(16, 'Google Inc.', '2022-05-30 18:42:31', '2022-05-30 18:42:31'),
+(17, 'Youtube', '2022-05-30 18:48:05', '2022-05-30 18:48:05');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `migrations`
+-- Struktur dari tabel `migrations`
 --
 
 CREATE TABLE `migrations` (
@@ -122,7 +106,7 @@ CREATE TABLE `migrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `migrations`
+-- Dumping data untuk tabel `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
@@ -144,7 +128,7 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `notes`
+-- Struktur dari tabel `notes`
 --
 
 CREATE TABLE `notes` (
@@ -157,16 +141,18 @@ CREATE TABLE `notes` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `notes`
+-- Dumping data untuk tabel `notes`
 --
 
 INSERT INTO `notes` (`id`, `user_id`, `title`, `description`, `created_at`, `updated_at`) VALUES
-(3, 9, 'sss', 'sssd', '2022-02-04 21:14:39', '2022-02-04 21:14:39');
+(8, 7, 'Catatan harian', 'Catatan harian projek', '2022-02-09 02:00:59', '2022-03-09 19:53:25'),
+(9, 8, 'Catatan harian', 'Catatan Harian Projek', '2022-02-09 02:08:28', '2022-02-09 02:08:28'),
+(12, 7, 'fagbv', 'gafbgfgfghghgh', '2022-06-03 08:50:22', '2022-06-03 08:51:04');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `password_resets`
+-- Struktur dari tabel `password_resets`
 --
 
 CREATE TABLE `password_resets` (
@@ -178,7 +164,7 @@ CREATE TABLE `password_resets` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `permissions`
+-- Struktur dari tabel `permissions`
 --
 
 CREATE TABLE `permissions` (
@@ -190,43 +176,31 @@ CREATE TABLE `permissions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `permissions`
+-- Dumping data untuk tabel `permissions`
 --
 
 INSERT INTO `permissions` (`id`, `user_id`, `application_id`, `created_at`, `updated_at`) VALUES
-(38, 8, 5, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(39, 8, 6, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(40, 8, 7, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(41, 8, 8, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(42, 8, 9, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(43, 8, 10, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(44, 8, 11, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(45, 8, 12, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(46, 8, 13, '2021-12-16 04:35:37', '2021-12-16 04:35:37'),
-(65, 7, 5, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(66, 7, 6, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(67, 7, 7, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(68, 7, 8, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(69, 7, 9, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(70, 7, 10, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(71, 7, 11, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(72, 7, 12, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(73, 7, 13, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(74, 7, 14, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(75, 7, 15, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(76, 7, 16, '2022-02-05 01:54:52', '2022-02-05 01:54:52'),
-(77, 7, 17, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(78, 7, 18, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(79, 7, 19, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(80, 7, 20, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(81, 7, 21, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(82, 7, 22, '2022-02-05 01:54:53', '2022-02-05 01:54:53'),
-(83, 7, 23, '2022-02-05 01:54:53', '2022-02-05 01:54:53');
+(138, 8, 28, '2022-05-30 19:26:56', '2022-05-30 19:26:56'),
+(139, 8, 29, '2022-05-30 19:26:56', '2022-05-30 19:26:56'),
+(140, 8, 30, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(141, 8, 31, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(142, 8, 32, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(143, 8, 33, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(144, 8, 34, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(145, 8, 35, '2022-05-30 19:26:57', '2022-05-30 19:26:57'),
+(146, 7, 28, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(147, 7, 29, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(148, 7, 30, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(149, 7, 31, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(150, 7, 32, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(151, 7, 33, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(152, 7, 34, '2022-06-03 07:56:02', '2022-06-03 07:56:02'),
+(153, 7, 35, '2022-06-03 07:56:02', '2022-06-03 07:56:02');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `roles`
+-- Struktur dari tabel `roles`
 --
 
 CREATE TABLE `roles` (
@@ -237,18 +211,17 @@ CREATE TABLE `roles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `roles`
+-- Dumping data untuk tabel `roles`
 --
 
 INSERT INTO `roles` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (1, 'Administrator', '2021-11-16 16:12:18', NULL),
-(2, 'User', '2021-11-16 16:12:18', NULL),
-(3, 'Vendor', '2021-12-12 20:26:13', '2021-12-12 20:26:13');
+(2, 'User', '2021-11-16 16:12:18', NULL);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Struktur dari tabel `users`
 --
 
 CREATE TABLE `users` (
@@ -270,58 +243,58 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `users`
+-- Dumping data untuk tabel `users`
 --
 
 INSERT INTO `users` (`id`, `role_id`, `name`, `nip`, `last_name`, `email`, `image`, `username`, `email_verified_at`, `password`, `two_factor_secret`, `two_factor_recovery_codes`, `remember_token`, `created_at`, `updated_at`) VALUES
 (7, 1, 'admin', '12121212', 'admin', 'admin@admin.com', '', 'admin', NULL, '$2y$10$PlWV2x.Nk7Jy52IAIKPR/el1/MioHypVsOXbqP4Sr/2ihBWw9tK2K', NULL, NULL, NULL, NULL, NULL),
-(8, 2, 'Muhammad', '11223344', 'Zainudin', 'Zainudin@gmail.com', '1643548910.jpg', 'Zainudin', NULL, '$2y$10$gECFpBa/FDnx8NdAu7lvDOyRyWsydKX4F6ck4lDoAI.p5Q5mO7wVa', NULL, NULL, NULL, '2021-12-12 20:27:07', '2022-01-30 06:21:50'),
-(9, 2, 'Handoko', '11217052', 'Adji Pangestu', 'handokoadjipangestu@gmail.com', NULL, 'handokoadjip', NULL, '$2y$10$Y9jtNdIM91gkwS2Wq7k04u9KVmjdahAfWG0i/EOvxqns8j7BF5gGe', NULL, NULL, NULL, '2022-02-04 21:00:33', '2022-02-04 21:00:33');
+(8, 2, 'Muhammad', '11223344', 'Zainudin', 'Zainudin@gmail.com', '1654271820.jpg', 'Zainudin', NULL, '$2y$10$1SRzeGm4QWkdU45BKOdwQe9lL0h854jMJS.v4HzVdG72bkdH0O1tq', NULL, NULL, NULL, '2021-12-12 20:27:07', '2023-07-23 19:27:02'),
+(12, 2, 'User', '13345671', 'Data', 'user@gmail.com', NULL, 'Pengguna', NULL, '$2y$10$Mk43ZznxMdnMcIbSv7oswOgmmWZ8yBwM4tSktPycJJ7HN9lZSIhCu', NULL, NULL, NULL, '2023-07-23 20:36:47', '2023-07-23 21:28:30');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `applications`
+-- Indeks untuk tabel `applications`
 --
 ALTER TABLE `applications`
   ADD PRIMARY KEY (`id`),
   ADD KEY `applications_group_id_foreign` (`group_id`);
 
 --
--- Indexes for table `failed_jobs`
+-- Indeks untuk tabel `failed_jobs`
 --
 ALTER TABLE `failed_jobs`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `groups`
+-- Indeks untuk tabel `groups`
 --
 ALTER TABLE `groups`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `migrations`
+-- Indeks untuk tabel `migrations`
 --
 ALTER TABLE `migrations`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `notes`
+-- Indeks untuk tabel `notes`
 --
 ALTER TABLE `notes`
   ADD PRIMARY KEY (`id`),
   ADD KEY `notes_user_id_foreign` (`user_id`);
 
 --
--- Indexes for table `password_resets`
+-- Indeks untuk tabel `password_resets`
 --
 ALTER TABLE `password_resets`
   ADD KEY `password_resets_email_index` (`email`);
 
 --
--- Indexes for table `permissions`
+-- Indeks untuk tabel `permissions`
 --
 ALTER TABLE `permissions`
   ADD PRIMARY KEY (`id`),
@@ -329,13 +302,13 @@ ALTER TABLE `permissions`
   ADD KEY `permissions_role_id_foreign` (`user_id`);
 
 --
--- Indexes for table `roles`
+-- Indeks untuk tabel `roles`
 --
 ALTER TABLE `roles`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `users`
+-- Indeks untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
@@ -343,82 +316,82 @@ ALTER TABLE `users`
   ADD KEY `users_role_id_foreign` (`role_id`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `applications`
+-- AUTO_INCREMENT untuk tabel `applications`
 --
 ALTER TABLE `applications`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
--- AUTO_INCREMENT for table `failed_jobs`
+-- AUTO_INCREMENT untuk tabel `failed_jobs`
 --
 ALTER TABLE `failed_jobs`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `groups`
+-- AUTO_INCREMENT untuk tabel `groups`
 --
 ALTER TABLE `groups`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
--- AUTO_INCREMENT for table `migrations`
+-- AUTO_INCREMENT untuk tabel `migrations`
 --
 ALTER TABLE `migrations`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
--- AUTO_INCREMENT for table `notes`
+-- AUTO_INCREMENT untuk tabel `notes`
 --
 ALTER TABLE `notes`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- AUTO_INCREMENT for table `permissions`
+-- AUTO_INCREMENT untuk tabel `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=84;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=155;
 
 --
--- AUTO_INCREMENT for table `roles`
+-- AUTO_INCREMENT untuk tabel `roles`
 --
 ALTER TABLE `roles`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
--- Constraints for dumped tables
+-- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
 
 --
--- Constraints for table `applications`
+-- Ketidakleluasaan untuk tabel `applications`
 --
 ALTER TABLE `applications`
   ADD CONSTRAINT `applications_group_id_foreign` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `notes`
+-- Ketidakleluasaan untuk tabel `notes`
 --
 ALTER TABLE `notes`
   ADD CONSTRAINT `notes_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `permissions`
+-- Ketidakleluasaan untuk tabel `permissions`
 --
 ALTER TABLE `permissions`
   ADD CONSTRAINT `permissions_application_id_foreign` FOREIGN KEY (`application_id`) REFERENCES `applications` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `permissions_role_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 
 --
--- Constraints for table `users`
+-- Ketidakleluasaan untuk tabel `users`
 --
 ALTER TABLE `users`
   ADD CONSTRAINT `users_role_id_foreign` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE;

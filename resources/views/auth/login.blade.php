@@ -1,5 +1,7 @@
 @extends('layouts.auth')
-
+<!-- Favicon -->
+<link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
+  
 @section('main-content')
 <!-- css animasi loader -->
     <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
@@ -35,9 +37,9 @@
     <div class="row justify-content-center">
         <div class="col-xl-10 col-lg-10 col-md-9">
             <div class="card o-hidden border-0 shadow-lg my-5">
-                <div class="card-body p-5">
+
 <div class="row">
-                        <div class="col-lg-6 "><img src='img/cover-login.png' width="80%"
+                        <div class="col-lg-6 "><img src='img/LandiNG page.png' width="80%"
                                 style="margin-top:30px; margin-left:50px"></div>
                         <div class="col-lg-6">
                             <div class="p-5">
@@ -105,7 +107,17 @@
                                             Loading...
                                         </button>
                                     </div>
-
+                <p class="fs-7"><small>
+             Untuk Login menggunakan :
+             <br>
+             Username : user@gmail.com
+             <br>
+             Password : Userdata
+             <br>
+             Note :
+             <br>
+             Demi privasi data perusahaan, saya mengubah isi database.
+             <small></p>
             </form>
         </div>
 <!-- <div class="container">

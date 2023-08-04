@@ -22,9 +22,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
-    <!-- Favicon -->
-    <link href="{{ asset('img/tagjm.png') }}" rel="icon" type="image/png">
+ <!-- Favicon -->
+ <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
+  
 
     @stack('css')
 </head>
@@ -87,12 +87,12 @@
                 </a>
             </li>
 
-            <li class="nav-item {{ Nav::isRoute('group.index') }}">
+            <!-- <li class="nav-item {{ Nav::isRoute('group.index') }}">
                 <a class="nav-link" href="{{ route('group.index') }}">
                     <i class="fas fa-fw fas fa-layer-group"></i>
                     <span>Data Group</span>
                 </a>
-            </li>
+            </li> -->
 
             <!-- Nav Item -->
             <!-- <li class="nav-item {{ Nav::isRoute('permission.index') }}">
@@ -111,10 +111,11 @@
                 </div>
             </a>
             <div id='submenu1' class="nav-item collapse sidebar-submenu">
-                <a class="nav-link" href="{{ route('role.index') }}"
+                <a class="nav-link" href="{{ route('group.index') }}"
                     class="list-group-item list-group-item-action bg-dark text-white">
-                    <i class="fas fa-fw fa-users-cog"></i>
-                    <span class="menu-collapsed">Role</span>
+                    <i class="fas fa-fw fas fa-layer-group"></i>
+                    <!-- <i class="fas fa-fw fa-users-cog"></i> -->
+                    <span class="menu-collapsed">Data Group</span>
                 </a>
                 {{-- <a class="nav-link" href="{{ route('permission.index') }}"
                     class="list-group-item list-group-item-action bg-dark text-white">
@@ -149,7 +150,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
                 <a href="{{ route('home') }}">
-                    <img src="{{asset('img/jasa.png')}}" width="35%">
+                    <img src="{{asset('img/LandiNG.png')}}" width="75%">
                 </a>    
 
                     <!-- Sidebar Toggle (Topbar) -->
@@ -250,17 +251,19 @@
             <br>
             <br>
             <br>
+            <br>
+            <br>
+            
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright my-auto">
                         <!-- To the right -->
-                        <div class="float-right d-none d-sm-inline">Suported by Information Technology Group
+                        <div class="float-right d-none d-sm-inline">Suported by Allah Swt
                         </div>
                         <!-- Default to the left -->
-                        <strong>Copyright &copy; 2021 <a href="https://www.jasamarga.com/public/id/home.aspx">PT. Jasa
-                                Marga (Persero)</a>.</strong> All rights reserved.
+                        <strong>Copyright &copy; 2021 <a href="https://www.youtube.com/channel/UCVr1sgVvLNTQgOJxHqlDXkQ">Nodi Official</a>.</strong> All rights reserved.
                     </div>
                 </div>
             </footer>
